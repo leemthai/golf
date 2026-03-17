@@ -1,12 +1,80 @@
 <!DOCTYPE html>
-<html lang="">
-  <head>
-    <meta charset="utf-8">
-    <title></title>
-  </head>
-  <body>
-    <header></header>
-    <main></main>
-    <footer></footer>
-  </body>
+
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Golf Assets Repository</title>
+  <style>
+    body {
+      font-family: system-ui, sans-serif;
+      margin: 40px;
+      background: #0f1115;
+      color: #e6e6e6;
+    }
+    h1 {
+      margin-bottom: 0.2em;
+    }
+    .muted {
+      color: #9aa0a6;
+      margin-bottom: 2em;
+    }
+    code {
+      background: #1a1d24;
+      padding: 2px 6px;
+      border-radius: 4px;
+    }
+    a {
+      color: #4ea1ff;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+    .section {
+      margin-bottom: 2em;
+    }
+  </style>
+</head>
+<body>
+
+<h1>Golf Assets</h1>
+<div class="muted">
+  Static asset repository (GLTF, textures, etc.) served via GitHub Pages.
+</div>
+
+<div class="section">
+  <h2>Usage</h2>
+  <p>Base URL:</p>
+  <code>https://YOURUSERNAME.github.io/golf-assets/</code>
+
+  <p>Example:</p>
+  <code>/models/hole_01.glb</code>
+</div>
+
+<div class="section">
+  <h2>Models</h2>
+  <ul>
+    <li><a href="./models/hole_01.glb">hole_01.glb</a></li>
+    <!-- Add more as needed -->
+  </ul>
+</div>
+
+<div class="section">
+  <h2>Textures</h2>
+  <ul>
+    <li><a href="./textures/grass.png">grass.png</a></li>
+    <!-- Add more as needed -->
+  </ul>
+</div>
+
+<div class="section">
+  <h2>Notes</h2>
+  <ul>
+    <li>Keep paths stable (URLs are used externally)</li>
+    <li>Prefer versioned folders (e.g. <code>/v1/</code>) for breaking changes</li>
+    <li>Large files: watch GitHub size limits (~100MB/file)</li>
+  </ul>
+</div>
+
+</body>
 </html>
